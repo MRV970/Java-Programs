@@ -22,6 +22,15 @@ public class Print_Elements_Array {
 		}
 	}
 	@Test
+	public void ReverseEle() {
+		int a[]= {34,78,98,67,54,45};
+		for(int i=a.length-1;i>0;i--) {
+			System.out.println(a[i]);
+			
+		}
+		
+	}
+	@Test
 	public void odd_Ele_Array() {
 		int a[]= {34,78,98,67,54,45};
 		for(int i=0;i<=a.length-1;i++) {

@@ -1,8 +1,6 @@
 package ArrayPrograms;
 
 import java.util.Arrays;
-import java.util.Stack;
-
 import org.testng.annotations.Test;
 
 public class Copy_Elements_Array {
