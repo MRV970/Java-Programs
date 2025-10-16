@@ -8,11 +8,6 @@ public class Palindrome_m_n {
 	@Test
 	public void palindrome() {
 		Scanner sc=new Scanner(System.in);
-		
-		//System.out.println("enter the m value");
-		
-		//int m=sc.nextInt();
-		
 		System.out.println("enter the n value");
 		int n=sc.nextInt();
 		

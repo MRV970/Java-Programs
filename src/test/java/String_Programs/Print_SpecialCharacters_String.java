@@ -11,8 +11,7 @@ public class Print_SpecialCharacters_String {
 			char ch=s1.charAt(i);
 			if(!(ch>='a'&&ch<='z')&&!(ch>='A'&&ch<='Z')&&!(ch>='0'&&ch<='9')) {
 				s2=s2+ch;
-			}
-		}
+			}}
 		System.out.println(s2);
 	}
    }

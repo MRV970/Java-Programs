@@ -7,7 +7,6 @@ public class Count_Upper_Lower_SpecialChar_String {
 	@Test
 	public void  count_U_L_S_N() {
 		String s1="JAva #&PRograMs@123";
-		//String s2="";
 		int U=0,L=0,S=0,N=0;
 		for(int i=0;i<=s1.length()-1;i++) {
 			if(s1.charAt(i)>='A'&&s1.charAt(i)<='Z') {

@@ -10,8 +10,9 @@ public class Largest_Ele_Array {
 	int a[]= {32,54,98,67,90};
 	Arrays.sort(a);
 	
-	System.out.println(a[a.length-1]);
+  System.out.println(a[a.length-1]);
 	}
+	
 	@Test
 	public void largesteleLogic() {
 		int a[]= {32,54,98,67,90};
@@ -19,8 +20,6 @@ public class Largest_Ele_Array {
 		for(int i=0;i<=a.length-1;i++) {
 			if(a[i]>=large) {
 				large=a[i];
-			}
-		}
-		System.out.println(large);
-	}
-}
+			}}
+	System.out.println(large);
+	}}

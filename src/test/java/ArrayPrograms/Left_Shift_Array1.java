@@ -20,9 +20,9 @@ public class Left_Shift_Array1 {
 		a[i]=a[i+1];
 		}
 	a[a.length-1]=temp;
-		for(int i:a) {
-			System.out.print(i+" ");
-		}
+		
+			System.out.print(Arrays.toString(a));
+		
 	}
 	@Test
 	public void user_left_shift(){

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ArrayPrograms.Ascending_Array">
+      <class name="NewPrograms.ConsecutiveNumbers">
         <methods>
-          <include name="ascendinglogic"/>
+          <include name="cosecutive"/>
         </methods>
-      </class> <!-- ArrayPrograms.Ascending_Array -->
+      </class> <!-- NewPrograms.ConsecutiveNumbers -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

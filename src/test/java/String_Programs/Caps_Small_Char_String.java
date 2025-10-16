@@ -9,7 +9,7 @@ public class Caps_Small_Char_String {
 	 String s2="";
 	 for(int i=0;i<=s.length()-1;i++) {
 		 if(s.charAt(i)>='A'&&s.charAt(i)<='Z') {
-			 s2=s2+s.charAt(i);
+			 s2		=s2+s.charAt(i);
 		 
 		 }}
 	 System.out.println(s2);

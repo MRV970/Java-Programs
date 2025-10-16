@@ -30,7 +30,6 @@ System.out.println("missing no is "+sum);
 					break;
 				}
 			}
-		
 			if(status==true) {
 				System.out.println(i);
 			}

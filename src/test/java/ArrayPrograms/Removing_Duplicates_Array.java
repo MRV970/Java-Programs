@@ -46,7 +46,7 @@ public class Removing_Duplicates_Array {
 					count++;
 				}
 				}
-			if(count>=1) {
+			if(count==1) {
 				System.out.println(a[i]);
 			}
 		}
